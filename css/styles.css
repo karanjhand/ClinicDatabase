@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.title{
+    margin: 10px;
+	font-family:Gill Sans, sans-serif;
+	font-size:50px;
+letter-spacing:6px;
+	
+}
+
+
+
+/* Overlay effect for order form */
+
+.wrap{
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.order{
+    margin-top: 5px;
+}
+
+.order input{
+    width: 100%;
+    padding: 10px;
+    box-sizing:border-box;
+    margin-bottom:10px;
+    border:none;
+    outline:none;
+    border: 1px solid gray;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.order .half{
+    width: 33%;
+}
+
+.wrap h2{
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+    text-align: center;
+}
+
+.order input[type=submit]{
+    font-size: 16px;
+    margin-top: 30px;
+    color: #fff;
+    font-weight: bold;
+    background: #cc0033;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.openbtn{
+    background: #f1f1f1;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 15px;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index:1;
+    top:0;
+    left: 0;
+    background: rgba(0,0,0,0.7);
+}
+
+.closebtn{
+    position: absolute;
+    top:20px;
+    right:45px;
+    font-size:60px;
+    cursor:pointer;
+    color:#fff;
+}
+
+.closebtn:hover{
+    color:#ccc;
+}
+
+
+
+ul {
+    font-size: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+div.container2{
+    background:10px solid azure;
+    padding:30px;
+    
+    }
+.container2 h1
+    {padding-top:15px;
+    margin-bottom:50px}
+    header.header
+    {background-color:azure;
+    padding-bottom:0px;
+    padding-top:0px;
+    clear:both;
+    
+    
+    }
+
+header
+{ background-image: url("headerimage.jpg");
+ background-repeat:no-repeat;
+ background-size: cover;
+ margin-top:0;}
+
+
+li {
+    float: left;
+    padding:10px;
+}
+
+header i{font-size:25px;
+    position:relative;
+    bottom:50px;
+    left:130px;
+    float:left;
+    padding-left:3px;
+    padding-right:30px;
+    }
+    
+span i {background-color:white;
+    font-size:20px;}
+    
+div.home
+    {
+        padding-left: 20px;
+		text-align:center;
+		margin:auto;
+	
+
+    }
+#doctor{margin:auto}
+#doctor.section
+{background-color:azure}
+.doctor{background-color:white;
+border:20px solid lightsteelblue;
+margin:auto;
+max-width:100%;
+border-radius:25px;
+}	
+.docimage
+{
+	padding-top:10px;
+	padding-bottom:10px;
+	max-width:100%
+}	
+.docinfo
+{
+	margin:auto;
+	max-width:100%
+}
+.home 
+{
+		border:1px solid lightsteelblue;
+}
+    
+    
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:Gill Sans, sans-serif;
+}
+
+li a:hover {
+    border:2px solid lightsteelblue;
+    font-weight:bold;
+        font-family:Gill Sans, sans-serif;
+}
+
+.active {
+    background-color: rgb(50, 94, 240);
+}
+
+footer { 
+    display: block;
+}
+
+
+.section2 .container{
+    text-align: center;
+		border:10px solid lightsteelblue;
+		margin:auto;
+		width:500px;
+		background-color:white;
+		border-radius:25px;
+		margin-bottom:10px;
+	
+}
+.container
+{
+	padding-bottom:20px;
+	margin-bottom:40px;
+}
+div.home
+{	background-color:azure;}
+
+div. .section1 {
+	text-align:center;
+	margin:auto;
+}
+
+div .bigbox1{background-color:lightsteelblue;
+width:800px;
+height:450px;
+text-align:center;
+margin:auto;
+padding-top:20px;
+padding-left:20px;
+padding-right:20px;
+border-radius: 25px}
+
+.box1{background-color:white;
+width:250px;
+float:left;
+border: 4px solid lightsteelblue;
+border-radius: 25px
+}
+.box2{background-color:white;
+width:250px;
+float:left;
+border: 4px solid lightsteelblue;
+border-radius: 25px;
+margin-left:10px;
+}
+.box3{background-color:white;
+width:250px;
+float:right;
+border: 4px solid lightsteelblue;
+border-radius: 25px}
+
+
+div .bigbox2{background-color:lightsteelblue;
+width:800px;
+height:400px;
+text-align:center;
+margin:auto;
+padding-top:20px;
+padding-left:20px;
+padding-right:20px;
+margin-bottom:40px;
+border-radius: 25px
+}
+
+ .box1a{background-color:white;
+width:250px;
+float:left;
+border: 4px solid lightsteelblue;
+border-radius: 25px
+}
+
+.box1b
+{background-color:white;
+width:250px;
+float:left;
+border: 4px solid lightsteelblue;
+margin-left:10px;border-radius: 25px
+}
+
+ .box1c
+{background-color:white;
+width:250px;
+float:right;
+border: 4px solid lightsteelblue;
+border-radius: 25px
+}
+
+.homepagetitle
+{
+	font-size:40px;
+}
+
+.hometext
+{font-size:25px;
+background-color:white;
+border-bottom:5px solid #333;
+width:400px;
+text-align:center;
+margin:auto;
+margin-bottom:20px;
+border-radius: 25px}
+
+
+
+
+
+.section {
+    padding: 2rem 0;
+}
+
+.doctor {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: left;
+}
+
+#starhome
+{color:yellow;}
+
+.container {
+    max-width: 1180px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+
+.button{ 
+    background:none;
+    color:inherit;
+    border:none; 
+    padding:0;
+    font: inherit;
+    /*border is optional
+    border-bottom:1px solid #444; */
+    cursor: pointer;   
+}
+
+.footer{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+img.logosymbol{
+    clear:both;
+    float:left;
+    padding-top:10px;
+    padding-right:10px
+    
+    }
+
+    .clearfix{
+        overflow:auto
+    }
+
+.footer .left{
+    margin-right: 100px;
+}
+
+.footer .right{
+    margin-left: 100px;
+}
+
+body .doctypeform
+{background-color:azure;
+margin-bottom:0;
+padding:10px;
+text-align:center;}
+
+.sidebar .booked {border:6px solid lightsteelblue;}
+
+
+.dropbtn {
+    background-color: #333;
+    color: white;
+	font: italic bold 12px/30px Georgia, serif;
+	font-size:35px;
+    padding: 16px;
+    font-size: 16px;
+
+	font-family:Gill Sans, sans-serif;
+}
+
+.booked {
+    position: relative;
+    display: inline-block;
+	font-size:20px;
+	font-family:Gill Sans, sans-serif;
+	
+	
+}
+
+
+.booked .dropbtn {
+    background-color: orange;
+}
+
+.red{background-color:azure;
+text-align:center;}
+.red h1 
+{margin-top:30px}
+.red form 
+{width:500px;
+margin:auto;
+text-align:left;
+margin-top:40px;
+font-size:20px;
+padding:30px;
+border: 3px solid lightsteelblue;}
+.red input
+{height:30px;
+padding-bottom:20px;
+font-size:20px}
+
+div.division 
+{background-color:white;
+border:2px solid #333;
+margin:auto;
+width:800px;
+text-align:center;}
+div.division table
+{font-size:20px;
+text-align:center;}
+.division tr 
+{text-align:center;
+}
+
+.bookedtable{font-size:35px;margin:auto;
+border: 2px solid #333;
+margin-bottom:10px;
+margin-top:10px;
+padding:20px;
+background-color:white;
+}
+div.division 
+{background-color:lightsteelblue;
+margin-bottom:30px;}
+.h1div{border:5px solid orange;
+width:450px;
+margin:auto;
+text-align:center;}
+.h1booked
+{
+border:5px solid orange;
+font-size:30px;
+width:400px;
+margin:auto;
+text-align:center;
+margin-top:20px;
+margin-bottom:20px;
+}
+.bookedtable td
+{padding:40px;
+
+}
+.bookedtable th
+{border-bottom:3px solid black;
+padding-left:30px;
+font-size:25px;}
+
+.h1div
+{background-color:orange;
+margin-top:30px;
+margin-bottom:20px;
+font: italic bold 12px/30px Georgia, serif;color:white;
+	font-size:40px;
+    font-size: 16px;
+	font-family:Gill Sans, sans-serif;
+	border-color:buttonface;
+	    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+	}
+
+

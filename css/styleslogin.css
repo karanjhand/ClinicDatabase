@@ -1,0 +1,25 @@
+body {
+	background-color:azure;
+	text-align:center;
+	margin:auto;
+	margin-top:40px;
+	font-family:Gill Sans, sans-serif
+}
+h1
+{
+	margin-bottom:0px
+}
+
+.whiteboxinner
+{background-color:white;
+margin-left:400px;margin-right:400px;
+margin-top:30px;
+border: 1px solid black;
+padding-bottom:20px}
+
+a{font-size:17px;
+
+}
+
+a:hover{background-color:gainsboro;
+}
